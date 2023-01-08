@@ -1,7 +1,5 @@
-public class DeclareTwoEmployees
-{
-   public static void main(String[] args)
-   {
+public class DeclareTwoEmployees {
+   public static void main(String[] args) {
       Employee clerk = new Employee();
       Employee driver = new Employee();
       clerk.setEmpNum(345);

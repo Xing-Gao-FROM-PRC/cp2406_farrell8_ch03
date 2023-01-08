@@ -1,14 +1,11 @@
 import java.util.Scanner;
-class MethodsThatUseAnEmployee
-{
-   public static void main (String args[])
-   {
+class MethodsThatUseAnEmployee {
+   public static void main (String args[]) {
      Employee myEmployee;
      myEmployee = getEmployeeData();
      displayEmployee(myEmployee);
    }
-   public static Employee getEmployeeData()
-   {
+   public static Employee getEmployeeData() {
       Employee tempEmp = new Employee();
       int id;
       double sal;
@@ -21,8 +18,7 @@ class MethodsThatUseAnEmployee
       tempEmp.setEmpSalary(sal);
       return tempEmp;
    }
-   public static void displayEmployee(Employee anEmp)
-   {
+   public static void displayEmployee(Employee anEmp) {
        System.out.println("\nEmployee #" + anEmp.getEmpNum() +
           " Salary is " + anEmp.getEmpSalary());
    }
